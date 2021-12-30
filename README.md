@@ -50,14 +50,14 @@ Firstly, initialize two lists, one of them store not visited cities and another 
 creating a start node with start city and goal node with goal city. Then adding start node into
 not visited list. After that, start a loop.
 <pre>
-while opened not empty \
-  Find a lowest f value node \
-  Add this node into visited list and remove from not visited list \
-  If our node is goal node then break the loop \
-  Else get adjacent cities of this node // return a dictionary \
-  Loop through a dictionary \
-    Create adjacent city node \
-    If node is visited then continue (prevent infinity loop such as Arad – Sibiu, Sibiu- Arad) \
-    Update a f value \
-    If a node not in not visited, then add this node into not visited \
+while opened not empty 
+  Find a lowest f value node 
+  Add this node into visited list and remove from not visited list 
+  If our node is goal node then break the loop 
+  Else get adjacent cities of this node // return a dictionary 
+  Loop through a dictionary 
+    Create adjacent city node 
+    If node is visited then continue (prevent infinity loop such as Arad – Sibiu, Sibiu- Arad) 
+    Update a f value 
+    If a node not in not visited, then add this node into not visited 
 </pre>
