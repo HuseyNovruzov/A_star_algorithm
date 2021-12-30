@@ -1,4 +1,4 @@
-# A start algorithm implementation
+# A star algorithm implementation
 
 ### Graph class
 Firstly I initialize the picture as a graph
@@ -50,13 +50,13 @@ Firstly, initialize two lists, one of them store not visited cities and another 
 creating a start node with start city and goal node with goal city. Then adding start node into
 not visited list. After that, start a loop.
 
-while opened not empty __
-  Find a lowest f value node __
-  Add this node into visited list and remove from not visited list __
-  If our node is goal node then break the loop __
-  Else get adjacent cities of this node // return a dictionary __
-  Loop through a dictionary __
-    Create adjacent city node __
-    If node is visited then continue (prevent infinity loop such as Arad – Sibiu, Sibiu- Arad) __
-    Update a f value __
-    If a node not in not visited, then add this node into not visited __
+while opened not empty__
+  Find a lowest f value node__
+  Add this node into visited list and remove from not visited list__
+  If our node is goal node then break the loop__
+  Else get adjacent cities of this node // return a dictionary__
+  Loop through a dictionary__
+    Create adjacent city node__
+    If node is visited then continue (prevent infinity loop such as Arad – Sibiu, Sibiu- Arad)__
+    Update a f value__
+    If a node not in not visited, then add this node into not visited__
