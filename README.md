@@ -49,14 +49,15 @@ values dictionary, 3 – start city, 4 – goal city.
 Firstly, initialize two lists, one of them store not visited cities and another visited cities. Then
 creating a start node with start city and goal node with goal city. Then adding start node into
 not visited list. After that, start a loop.
-
+<pre>
 while opened not empty \
-  Find a lowest f value node__
-  Add this node into visited list and remove from not visited list__
-  If our node is goal node then break the loop__
-  Else get adjacent cities of this node // return a dictionary__
-  Loop through a dictionary__
-    Create adjacent city node__
-    If node is visited then continue (prevent infinity loop such as Arad – Sibiu, Sibiu- Arad)__
-    Update a f value__
-    If a node not in not visited, then add this node into not visited__
+  Find a lowest f value node \
+  Add this node into visited list and remove from not visited list \
+  If our node is goal node then break the loop \
+  Else get adjacent cities of this node // return a dictionary \
+  Loop through a dictionary \
+    Create adjacent city node \
+    If node is visited then continue (prevent infinity loop such as Arad – Sibiu, Sibiu- Arad) \
+    Update a f value \
+    If a node not in not visited, then add this node into not visited \
+</pre>
