@@ -6,7 +6,7 @@ using dictionary. Therefore, I create Graph class. This class has a variable tha
 and 3 methods. This variable contains each city as a key and adjacent cities and their distances as a
 value in a dictionary.
 
-![alt text](https://duckduckgo.com/?t=ffab&q=arad+bucharest+weighted+graph&iax=images&ia=images&iai=http%3A%2F%2Fi.stack.imgur.com%2FwjrA7.jpg)
+![Graph image](https://github.com/[HuseyNovruzov]/[A_start_algorithm]/blob/[master]/Graph.jpg?raw=true)
 
 Adding edge method that accept 3 arguments, 2 of them are start and end point of the edge, another is
 distance that store the edges’ weight.
