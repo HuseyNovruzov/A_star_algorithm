@@ -50,7 +50,7 @@ Firstly, initialize two lists, one of them store not visited cities and another 
 creating a start node with start city and goal node with goal city. Then adding start node into
 not visited list. After that, start a loop.
 
-while opened not empty__
+while opened not empty \
   Find a lowest f value node__
   Add this node into visited list and remove from not visited list__
   If our node is goal node then break the loop__
